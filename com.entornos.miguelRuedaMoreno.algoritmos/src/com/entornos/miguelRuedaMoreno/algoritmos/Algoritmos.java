@@ -19,5 +19,22 @@ public abstract class Algoritmos {
 		}
 
 	}
+	/**
+	 * Metodo para devolver el factorial de un número
+	 * @param numero (el que recibimos)
+	 * @return res (variable creada para almacenar el resultado)
+	 */
+	public int factorial(int numero) {
+		if(numero<1) {
+			return 0;
+		}else {
+			int res=1;
+			for(int i = numero; i>=1; i--){
+				res*=i;
+			}
+			return res;
+		}
+
+	}
 
 }
