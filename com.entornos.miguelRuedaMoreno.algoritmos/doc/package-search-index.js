@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.entornos.miguelRuedaMoreno.algoritmos"}];updateSearchResults();

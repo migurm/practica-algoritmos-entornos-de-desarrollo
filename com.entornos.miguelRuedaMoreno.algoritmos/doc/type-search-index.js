@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.entornos.miguelRuedaMoreno.algoritmos","l":"Algoritmos"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"}];updateSearchResults();
