@@ -11,7 +11,7 @@ public abstract class Algoritmos {
 	 * @param posicion que queremos de la sucesion 
 	 * @return el valor que se encuentra en la posicion indicada
 	 */
-	public long fibonacci(long posicion) {
+	public static long fibonacci(long posicion) {
 		if (posicion < 2) {
 			return posicion;
 		} else {
@@ -24,7 +24,7 @@ public abstract class Algoritmos {
 	 * @param numero (el que recibimos)
 	 * @return res (variable creada para almacenar el resultado)
 	 */
-	public int factorial(int numero) {
+	public static int factorial(int numero) {
 		if(numero<1) return 0;	
 		int res=1;
 		for(int i = numero; i>1; i--){
@@ -37,7 +37,7 @@ public abstract class Algoritmos {
 	 * @param numero que vamos a comprobar
 	 * @return true (es primo) o false (no es primo)
 	 */
-	public boolean primo(int numero) {
+	public static boolean primo(int numero) {
 		for (int i=2; i<numero; i++) {
 			if (numero%i==0) return false;			
 		}
